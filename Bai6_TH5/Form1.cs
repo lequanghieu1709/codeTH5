@@ -18,10 +18,13 @@ namespace Bai6_TH5
         public Form1()
         {
             InitializeComponent();
+            cbbNienKhoa.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbbLop.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
             listBox1.ScrollAlwaysVisible = true;
             txtMSV.Select();
         }
